@@ -85,7 +85,7 @@ def linear_spline(
     else:
         bin_pos = inputs * num_bins
         
-        bin_idx = np.floor(bin_pos)
+        bin_idx = np.array(np.floor(bin_pos), dtype=int)
         bin_idx = np.clip(bin_idx, 0, num_bins - 1)
 
         alpha = bin_pos - bin_idx
