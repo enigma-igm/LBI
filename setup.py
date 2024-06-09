@@ -37,7 +37,7 @@ setup_keywords["install_requires"] = [
     "corner",
     "scikit-learn",
     "tqdm",
-    "sklearn",
+    "scikit-learn",
 ]
 setup_keywords["dependency_links"] = [
     # "https://github.com/deepmind/optax/tarball/master#egg=jax-flows-0.0.dev0"
